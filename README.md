@@ -12,34 +12,34 @@ It lets you:
 
 ---
 
-How to Push Code to GitHub
+# How to Push Code to GitHub
 
-# 1. Initialize repo
+## 1. Initialize repo
 git init
 
-# 2. Add files
+## 2. Add files
 git add .
 
-# 3. Commit changes
+## 3. Commit changes
 git commit -m "initial commit"
 
-# 4. Link GitHub repo
+## 4. Link GitHub repo
 git remote add origin https://github.com/username/repo.git
 
-# 5. Push code
+## 5. Push code
 git branch -M main
 git push -u origin main
 
 ---
 
-What is Markdown?
+# What is Markdown?
 
 Markdown is a lightweight markup language used to format text (README files, docs, etc.).
 
 ---
 
-Basic Markdown Syntax
-
+# Basic Markdown Syntax
+```
 # Heading 1
 ## Heading 2
 
@@ -62,10 +62,5 @@ Basic Markdown Syntax
 # code block
 print("Hello World")
 
-
+```
 ---
-
-## Summary
-- Git = version control  
-- GitHub = remote hosting  
-- Markdown = clean documentation format
