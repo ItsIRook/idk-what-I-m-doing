@@ -1,7 +1,7 @@
 # idk-what-I-m-doing
 Git & Markdown Quick Brief
 
-# What is Git?
+## What is Git?
 
 Git is a distributed version control system used to track changes in code.
 It lets you:
@@ -12,33 +12,34 @@ It lets you:
 
 ---
 
-# How to Push Code to GitHub
+## How to Push Code to GitHub
 
-## 1. Initialize repo
-git init
+1. Initialize repo
+`git init`
 
-## 2. Add files
-git add .
+2. Add files
+`git add .`
 
-## 3. Commit changes
-git commit -m "initial commit"
+3. Commit changes
+`git commit -m "initial commit"`
 
-## 4. Link GitHub repo
-git remote add origin https://github.com/username/repo.git
+4. Link GitHub repo
+`git remote add origin https://github.com/username/repo.git`
 
-## 5. Push code
+5. Push code
+```
 git branch -M main
 git push -u origin main
-
+```
 ---
 
-# What is Markdown?
+## What is Markdown?
 
 Markdown is a lightweight markup language used to format text (README files, docs, etc.).
 
 ---
 
-# Basic Markdown Syntax
+## Basic Markdown Syntax
 ```
 # Heading 1
 ## Heading 2
